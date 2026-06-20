@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Formation Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <style>
@@ -50,12 +50,12 @@
             <form id="monFormulaire">
                 <div class="mb-3">
                     <label for="nom" class="form-label fw-bold">Nom et Prénom</label>
-                    <input type="text" class="form-control" id="nom" placeholder="Ex: Jean Dupont" required>
+                    <input type="text" class="form-control" id="nom" placeholder="Ex: DOSSOU Coffi" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="mail" class="form-label fw-bold">Adresse Email</label>
-                    <input type="email" class="form-control" id="mail" placeholder="Ex: jean.dupont@email.com" required>
+                    <input type="email" class="form-control" id="mail" placeholder="Ex: coffi.dossou@email.com" required>
                 </div>
 
                 <div class="mb-3">
@@ -94,9 +94,16 @@
                 </div>
                 <div class="col-md-6">
                     <p class="small text-white-50 text-md-end">© 2026 Formation Bootstrap - Tous droits réservés</p>
-                    <a href="https://chat.whatsapp.com/GsHpjL1odYS4iXTRD22u1f" title="Rejoindre notre groupe whatsApp" class="">
-                        <i class="bi bi-whatsapp transforme fs-2"></i>
-                    </a>
+                    <a href="https://chat.whatsapp.com/GsHpjL1odYS4iXTRD22u1f" title="Rejoindre notre groupe whatsApp" class=""><i class="bi bi-whatsapp transforme fs-2"></i></a>
+                    <style>
+                        .transforme{
+                            color: green;
+                        }
+                        .transforme:hover{
+                            color: palegreen;
+                            animation-name: grand;
+                        }
+                    </style>
                 </div>
             </div>
         </div>
